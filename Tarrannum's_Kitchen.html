@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarrannum's Kitchen</title>
+
+  <!-- Import Parisienne Font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #00008B;
+      text-align: center;
+    }
+
+    .title {
+      font-family: 'Parisienne', cursive;
+      font-weight: bold;
+      font-size: 50px;
+      margin: 40px 0 20px;
+      animation: fadeInLeft 2s ease-in-out forwards;
+      opacity: 0;
+    }
+
+    .tagline {
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 22px;
+      margin: 20px 0 30px;
+      animation: fadeInLeft 2s ease-in-out forwards;
+      animation-delay: 2s;
+      opacity: 0;
+    }
+
+    .link {
+      font-size: 18px;
+      color: #00008B;
+      margin-top: 20px;
+      animation: fadeInLeft 2s ease-in-out forwards;
+      animation-delay: 4s;
+      opacity: 0;
+    }
+
+    img {
+      width: 25%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+    }
+
+    .credits {
+      position: fixed;
+      bottom: 10px;
+      right: 20px;
+      font-size: 12px;
+      color: #00008B;
+      opacity: 0.8;
+    }
+
+    @keyframes fadeInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="title">Tarrannum's Kitchen</header>
+  <main>
+    <img src="TK_Logo.jpg" alt="Plate of Biryani">
+    <div class="tagline">From My Kitchen, To Yours</div>
+    <div class="link">
+      To discover our options, come check our exciting menu
+      <a href="Tarrannum's_Menu.html" style="color: #00008B; text-decoration: underline;">Tarrannum's Menu</a>
+    </div>
+  </main>
+  <div class="credits">Edited by Rushan Khan</div>
+</body>
+</html>
